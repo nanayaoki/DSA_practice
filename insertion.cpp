@@ -6,7 +6,7 @@ int main()
 {
     int pos, element;
     int arr[10] = {1, 2, 3, 4, 5};
-    cout << "Enter the position to insert thee element : ";
+    cout << "Enter the position to insert the element : ";
     cin >> pos;
     cout << "Enter the element to be inserted : ";
     cin >> element;
