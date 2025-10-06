@@ -13,7 +13,7 @@ int main()
         arr[i] = arr[i+1];
     }
     cout << "The new array is : ";
-    for(int i=0;i<41;i++)
+    for(int i=0;i<4;i++)
     {
         cout << arr[i] << " ";
     }   
