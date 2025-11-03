@@ -3,7 +3,7 @@
 using namespace std;   
 int main(){
     int arr[10];
-    int element,size;\
+    int element,size;
     cout<<"Enter the size of the array : ";
     cin>>size;
     cout<<"Enter the elements of the array : ";
