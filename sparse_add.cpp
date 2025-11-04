@@ -58,25 +58,6 @@ int main() {
         }
     }
 
-   
-    while (i < size1) {
-        result[0][k] = compact1[0][i];
-        result[1][k] = compact1[1][i];
-        result[2][k] = compact1[2][i];
-        i++;
-        k++;
-    }
-
-
-    while (j < size2) {
-        result[0][k] = compact2[0][j];
-        result[1][k] = compact2[1][j];
-        result[2][k] = compact2[2][j];
-        j++;
-        k++;
-    }
-
-   
     cout << "Row\tCol\tValue\n";
     for (int m = 0; m < k; m++) {
         cout << result[0][m] << "\t"
