@@ -48,7 +48,7 @@ int main() {
     vector<int> arr(n);
     cout << "Enter the scores of each student:\n";
     for (int i = 0; i < n; i++) {
-        cin >> arr[i];
+        cin >> arr[i];  
     }
 
     mergesort(arr, 0, n - 1);
